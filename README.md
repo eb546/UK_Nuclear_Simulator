@@ -4,7 +4,7 @@
 The UK Nuclear Simulator is a multi-component C software design that models a nuclear defense system. It consists of 4 clients: missileSilo, submarine, radar and satellite while the server is called nuclearControl. The system simulates with key features sucn as real-time threat detection and response using TCP sockets for communication, Caesar cipher encryption for securing messaging, and multi-threading for concurrent client handling. The server (nuclearControl) is responsible for processing intelligence reports from 2 of the 4 clients: radar and satellite. By doing so, the server issues launch commands to the other 2 clients, missileSilo and submarine, when threats presents themselves higher than the critical threshold. The program developed a test mode for simulating war scenarios and then generates detailed logs and summaries for operation test analysis. To tackle safety measures to the system, thread safety, reliable socket communication, and robust error 
 handling. 
 
-![Youtube Video Link](https://youtu.be/PK-3wbH-dvQ)
+[Youtube Video Link](https://youtu.be/PK-3wbH-dvQ)
 
 # TABLE OF CONTENTS
 ## GETTING STARTED
